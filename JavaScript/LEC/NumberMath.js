@@ -23,4 +23,5 @@ console.log(Math.ceil(4.6));//choose top values
 console.log(Math.floor(4.6));//lowest value
 console.log(Math.min(4,5,6,7));
 console.log(Math.max(4,5,6,7));
-
+console.log(Math.random());
+ 
