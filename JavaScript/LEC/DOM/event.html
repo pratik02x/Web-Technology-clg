@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Events Demo</title>
+
+    <style>
+        body {
+            background-color: #414141;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 15px;
+        }
+
+        img {
+            width: 200px;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        img:hover {
+            transform: scale(1.05);
+        }
+
+        a {
+            color: lightblue;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Amazing Images (Click to Remove)</h2>
+
+    <ul id="images">
+        <li>
+            <img id="photoshop"
+                src="https://upload.wikimedia.org/wikipedia/commons/a/af/Adobe_Photoshop_CC_icon.svg"
+                alt="Photoshop Logo">
+        </li>
+
+        <li>
+            <img id="japan"
+                src="https://images.unsplash.com/photo-1501785888041-af3ef285b470"
+                
+                alt="Mount Fuji">
+        </li>
+
+        <li>
+            <img id="Nature"
+                src="https://images.unsplash.com/photo-1549880338-65ddcdfd017b"
+                alt="Nature Image">
+        </li>
+
+        <li>
+            <img id="photoman"
+                src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee"
+                alt="Photographer">
+        </li>
+
+        <li>
+            <img id="tiger"
+                src="https://images.unsplash.com/photo-1546182990-dffeafbe841d"
+                alt="Tiger">
+        </li>
+
+        <li>
+            <a href="https://google.com" id="google">Visit Google</a>
+        </li>
+    </ul>
+    <button>Example</button>
+  </body>
+  <!-- <script src="event.js"></script> -->
+  <script src="fetch.js"></script>
+  <!-- <script>
+
+    document.getElementById("tiger").onclick=function(){
+        alert("hi");
+    }
+
+    document.getElementById("japan").addEventListener("click",(e)=>{
+        alert("hi");
+        console.log(e)
+    })
+    document.getElementById("photoman").addEventListener("click",(e)=>{
+        alert("hi");
+        console.log(e)
+    })
+  </script> -->
+  </html>
+
+  <!-- what is events : events is an action happens in browser . eg.clicking a button ,moving mouse,pressing key,submitting form loading a page, JS detecct and respond to them
+
+  types of events
+  1.mouse :clicking,ddlclick,mouse hover ,mouse out
+  
+  2.keyboard :keydown,keyup
+  
+  3.browser:load  -->
+
+  <!-- src="https://images.unsplash.com/photo-1501785888041-af3ef285b470"
+                onclick="alert('hi')"
+                alt="Mount Fuji">
+
+                not good way html should contain struture and js logic  hard to maintain-->
+
+
+
+<!-- select element assign function to click event whern click function run -->
+
+<!-- assignment - Jquery,time,timestampo,defaultprevent,target,sourceelement,current,clientx,clenty,screenx,screnny,alt,ctl  -->
+
+<!-- addEventListener is JS an method used to attach an event handler to an html elements so that specific function run when event occures -->
+
+

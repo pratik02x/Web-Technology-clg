@@ -1,17 +1,17 @@
 body {
     margin: 0;
-    height: 50vh;
-  
-          
+    /* height: 50vh; */
+    
+    
 }
 
 h2{
-    display: flex;
+    display:flex;
      justify-content: center;  
     align-items: center;
 }
 .container {
-    border: 2px solid black;
+    /* border: 2px solid black; */
     padding: 25px 40px;
     display: flex;
     justify-content: center;  
@@ -29,3 +29,18 @@ label {
     color: red;
     font-size: 14px;
 }
+
+#form{
+    border: 2px solid black;
+    height: 200px;
+    width: 300px;
+    padding: 30px  50px;
+    border-radius: 10px;
+
+}
+
+button{
+    height: 30px;
+
+}
+

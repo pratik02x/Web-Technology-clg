@@ -1,0 +1,25 @@
+Express   is a minimal and flexible web applicstion fremwork of nodejs
+that simplifies the development of ser er and api's
+
+//features
+1.routing
+2.middleware support
+3.req,res handling
+4.rest api creation
+5.template rendering
+
+npm--> node package manager
+
+//package.json and lock.json
+//dev dependecies and dependecies
+//https request 
+
+//routing in Express js
+routing referes to determinig how an application respond to client request for specific url and http method
+
+//componenets of routing
+URL,path,http methods handler function
+
+//middleware 
+in Express js middleware are func are function that executes during the lifecycle request before sending the final response
+they have access to req,res,next

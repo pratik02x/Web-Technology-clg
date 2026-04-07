@@ -55,6 +55,9 @@ document.getElementById("form").addEventListener("submit",function validate(even
 
     if(isValid){
         alert("Submitted successfully");
+        password.value="";
+        name.value="";
+        email.value="";
     }
 
 })
