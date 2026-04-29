@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>posts</title>
+</head>
+<body>
+    <h2>All posts</h2>
+
+    <% for(post of posts){ %>
+        <h2>@ <%=post.username %></h2>
+        <p><%= post.content %></p>
+        <a href="http://localhost:4000/<%= post.id %>/details"><button>show details</button></a>
+        <a href="http://localhost:4000/<%= post.id %>/edit"><button>Edit</button></a>
+
+    <% } %>
+</body>
+</html>

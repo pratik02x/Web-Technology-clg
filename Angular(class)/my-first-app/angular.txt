@@ -1,0 +1,52 @@
+pacckage.json is a config. file information about your project
+pacckage.lock-json:same detail information
+angular.json:project configuration 
+style.css:global css style
+.gitignore:version control file 
+.editorconfig:
+index.html:main html file loads angular
+main.ts:entry point of the app
+app.config.ts:app configuration file
+
+
+//variable decleration
+
+//component is a UI block when we create component crates 4 file html,css,typescript,spec.ts
+//ng g c componentname
+
+//data binding
+//1.one Way
+interpolation={{value}}
+property=[property]="value"
+event=(event)="handler()"
+
+2.two Way
+
+
+data binding means connect UI to code
+
+//activity
+how we can use all conditional startements,loops
+
+//directives:directives are think of directive like magic wands that can change your webpage without re
+
+1.structural:change the struture of your page like add,remove and repeated thigsfor,if-else,switch
+
+2.Attributes:change the look or style
+
+//activity 1:
+deep study about strutural directives with exaple,for,if-else,switch
+
+//modules
+before angular 15 needs module now a days angular 21 version so modules are optionals we can use standalone components
+
+//Services
+A Services is like a helper class it is used to share data or logic that many component can use
+instead of writing same code in every component we can write it once in a Service
+
+
+
+//nevigation between 
+
+//activity
+

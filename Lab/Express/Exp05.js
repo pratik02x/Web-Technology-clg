@@ -10,5 +10,5 @@ app.get("/",(req,res)=>{
 
 
 app.listen("4000",()=>{
-    console.log("server runnig on port 4000");
+    console.log("server runnig on port http://localhost:4000");
 })

@@ -1,0 +1,38 @@
+React is JS liabrary developed by meta to build fast and interactive interfaces
+
+Activity 
+1.diff between react and angular
+
+//why do we use react:problem with js full page reaload,complex dom manipulation,hard to manage large app
+//react:updates only requied part,uses reuasable component,
+
+//spa:Single page Application:page doesnot reaload only content change
+
+//Virual Dom:react creates a copy of real dom its called virtual dom
+//when data changes react updates virtual dom ,update only chaged part in real dom //result:high performance
+
+//tools:
+
+//vite it is fast build
+
+//impoertant file
+index.js:entry html file
+main.jsx:entry point of react
+app.jsx :root component
+
+//What is Jsx
+javscript + html
+it allow us to write html inside the JS code
+
+const element=<h1>Welcome </h1>
+
+//Rules
+1.must return single parent
+2.use scope bract for JS
+
+//component
+1.functinal component 
+
+2.class component
+
+

@@ -26,5 +26,5 @@ app.get("/user/:id",(req,res)=>{
 })
 
 app.listen("4000",()=>{
-    console.log("server started on port 4000");
+    console.log("server started on http://localhost:4000");
 })

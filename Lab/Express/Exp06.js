@@ -20,5 +20,5 @@ app.get("/contact",(req,res)=>{
 
 
 app.listen("4000",()=>{
-    console.log("server runnig on port 4000");
+    console.log("server runnig on http://localhost:4000");
 })

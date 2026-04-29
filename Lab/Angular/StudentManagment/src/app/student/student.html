@@ -1,0 +1,16 @@
+<h2>Add Student</h2>
+
+<input [(ngModel)]="name" placeholder="Name">
+<input [(ngModel)]="age" type="number" placeholder="Age">
+<input [(ngModel)]="course" placeholder="Course">
+
+<button (click)="addStudent()">Add</button>
+
+<hr>
+
+<ul>
+  <li *ngFor="let s of students; let i = index">
+    {{s.name}} - {{s.age}} - {{s.course}}
+    <button (click)="deleteStudent(i)">Delete</button>
+  </li>
+</ul>
